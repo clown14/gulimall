@@ -322,7 +322,7 @@ public class GenUtils {
         }
 
         if (template.contains("Controller.java.vm")) {
-            return packagePath + "controller" + File.separator + className + "Controller.java";
+            return packagePath + "com.atguigu.gulimall.thridparty.controller" + File.separator + className + "Controller.java";
         }
 
         if (template.contains("Dao.xml.vm")) {
