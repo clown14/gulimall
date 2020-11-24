@@ -35,7 +35,7 @@ public class GulimallExceptionControllerAdvice {
         });
 
         log.error("数据校验出现问题{},异常类型{}",exception.getMessage(),exception.getClass());
-        return R.error(400,"数据校验出现问题").put("data",map);
+        return R.error(BizCodeEnum.VALID_EXCEPTION.getCode(),"数据校验出现问题").put("data",map);
     }
 
     @ExceptionHandler(value = Throwable.class)
