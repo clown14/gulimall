@@ -26,7 +26,7 @@ import com.atguigu.common.utils.R;
  * @email 785613198@qq.com
  * @date 2020-11-07 14:26:44
  */
-
+//从配置中心动态读取
 @RefreshScope
 @RestController
 @RequestMapping("coupon/coupon")
