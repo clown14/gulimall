@@ -63,7 +63,7 @@ public class CategoryEntity implements Serializable {
 	 */
 	private Integer productCount;
 
-	@TableField(exist = false)
+	@TableField(exist = false) //表示当前属性不是数据库的字段，但在项目中必须使用，这样在新增等使用bean的时候，mybatis-plus就会忽略这个，不会报错
 	@JsonInclude(JsonInclude.Include.NON_EMPTY)
 	private List<CategoryEntity> children;
 
