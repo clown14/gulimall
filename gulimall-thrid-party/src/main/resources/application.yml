@@ -8,12 +8,12 @@ spring:
     nacos:
       discovery:
         server-addr: 127.0.0.1:8848
-    alicloud:
-      access-key: LTAI4G4CjYbJQagEpEVzs1vN
-      secret-key: O0NR3fBqmzpX2Op9JRIiuR8vGEUrqZ
-      oss:
-        endpoint: oss-cn-beijing.aliyuncs.com
-        bucket: gulimall-image-scy
+#    alicloud:
+#      access-key: LTAI4G4CjYbJQagEpEVzs1vN
+#      secret-key: O0NR3fBqmzpX2Op9JRIiuR8vGEUrqZ
+#      oss:
+#        endpoint: oss-cn-beijing.aliyuncs.com
+#        bucket: gulimall-image-scy
 
 
 logging:

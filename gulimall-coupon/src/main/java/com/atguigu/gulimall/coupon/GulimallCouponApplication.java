@@ -32,6 +32,9 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
  *      更改配置分组
  *      spring.cloud.nacos.config.group=DEFAULT_GROUP
  *  最终方案：每个微服务创建自己的命名空间，然后使用配置分组区分环境（dev/test/prod）
+ *
+ * 3、加载多配置集
+ * 我们要把原来application.yml里的内容都分文件抽离出去。我们在nacos里创建好后，在coupons里指定要导入的配置即可。
  */
 
 @SpringBootApplication
